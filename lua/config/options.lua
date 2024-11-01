@@ -4,3 +4,6 @@
 local opt = vim.opt
 opt.relativenumber = false
 opt.autochdir = true
+vim.diagnostic.config({
+  float = { border = "rounded" }, -- add border to diagnostic popups
+})
